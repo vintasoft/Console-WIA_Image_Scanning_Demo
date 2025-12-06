@@ -1,6 +1,6 @@
 # VintaSoft Console WIA Image Scanning Demo
 
-This .NET console project uses <a href="https://www.vintasoft.com/vstwain-dotnet-index.html">VintaSoft TWAIN .NET SDK</a> and demonstrates how to acquire images from WIA image scanner in console application.
+This .NET console project uses <a href="https://www.vintasoft.com/vstwain-dotnet-index.html">VintaSoft TWAIN .NET SDK</a> and demonstrates how to acquire images from WIA image scanner in console application in Windows.
 
 
 ## Usage

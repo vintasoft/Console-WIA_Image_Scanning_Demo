@@ -36,14 +36,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
-    <Reference Include="Vintasoft.Shared">
-      <HintPath>..\..\..\..\Bin\DotNet4\AnyCPU\Vintasoft.Shared.dll</HintPath>
-    </Reference>
-    <Reference Include="Vintasoft.WiaImageScanning">
-      <HintPath>..\..\..\..\Bin\DotNet4\AnyCPU\Vintasoft.WiaImageScanning.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="Vintasoft.Shared" Version="4.7.0.1" />
     <PackageReference Include="Vintasoft.WiaImageScanning" Version="15.5.0.1" />
   </ItemGroup>

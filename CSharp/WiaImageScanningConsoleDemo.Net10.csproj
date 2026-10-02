@@ -47,14 +47,12 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Vintasoft.Shared" Version="4.7.0.1" />
-		<PackageReference Include="Vintasoft.WiaImageScanning" Version="15.5.0.1" />
+    <PackageReference Include="Vintasoft.Shared" Version="4.7.0.1" />
+    <PackageReference Include="Vintasoft.WiaImageScanning" Version="15.5.0.1" />
 	</ItemGroup>
-
-	<ItemGroup>
-		<Compile Include="Program.cs" />
-		<Compile Include="Properties\AssemblyInfo.cs" />
-		<Content Include="App.ico" />
-	</ItemGroup>
-
+<ItemGroup>
+  <Compile Include="Program.cs" />
+  <Compile Include="Properties\AssemblyInfo.cs" />
+  <Content Include="App.ico" />
+</ItemGroup>
 </Project>

@@ -224,7 +224,7 @@ namespace WiaImageScanningConsoleDemo
         /// Selects the image pixel type for WIA device.
         /// </summary>
         /// <param name="device">WIA device.</param>
-        /// <returns>null - image pixel type is not selected; otherwise, selectes image pixel type.</returns>
+        /// <returns>null if image pixel type is not selected; otherwise, selected image pixel type.</returns>
         private static WiaImagePixelType? SelectWiaImagePixelType(WiaDevice device)
         {
             WiaImagePixelType[] supportedScanPixelTypes = device.GetSupportedImagePixelTypes();
